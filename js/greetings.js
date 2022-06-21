@@ -19,7 +19,6 @@ const onLoginSubmit = (event) => {
     localStorage.setItem(USERNAME_KEY, `${username}`);
 
     paintGreetings(username);
-
 }
 
 const paintGreetings = (parameter) => {
