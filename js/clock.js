@@ -13,7 +13,6 @@ const getClock = ()=>{
 };
 
 
-
 // Run the function first, because there is a delay of 1000 millisecond
 getClock();
 const setIn = setInterval(getClock, 1000);
