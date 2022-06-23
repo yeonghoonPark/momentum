@@ -47,16 +47,16 @@ const quote = document.querySelector('#quote span:nth-child(1)');
 const author = document.querySelector('#quote span:nth-child(2)');
 
 // reandom(), randomly output a number between 0 and 1
-console.log(Math.random() * 10);
+// console.log(Math.random() * 10);
 
 // round off
-console.log(Math.round(1.6));
+// console.log(Math.round(1.6));
 
-console.log(Math.ceil(1.1));
+// console.log(Math.ceil(1.1));
 
-console.log(Math.floor(1.9));
+// console.log(Math.floor(1.9));
 
-console.log(Math.floor(Math.random() * 10));
+// console.log(Math.floor(Math.random() * 10));
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
